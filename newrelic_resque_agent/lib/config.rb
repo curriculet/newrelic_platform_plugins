@@ -1,4 +1,5 @@
 # Monkeypatch of newrelic_plugin/config
+require 'erb'
 require 'newrelic_plugin/config'
 
 module NewRelic
