@@ -4,6 +4,8 @@ require "rubygems"
 require "bundler/setup"
 require "newrelic_plugin"
 
+require 'config'
+
 require 'resque'
 require 'redis'
 
